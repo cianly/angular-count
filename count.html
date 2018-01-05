@@ -1,0 +1,23 @@
+
+
+    <!doctype html>
+    <html ng-app>
+      <head>
+      	<meta charset="UTF-8">
+	    <script src="js/angular.min.js"></script>
+	    <script src="js/form.js"></script>
+      </head>
+      <body>
+        1+2={{1+2}}
+      </body>
+      <script>
+      	
+
+    it('should calculate expression in binding', function() {
+      expect(binding('1+2')).toEqual('3');
+    });
+
+
+      </script>
+    </html>
+
